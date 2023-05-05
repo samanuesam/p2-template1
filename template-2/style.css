@@ -1,0 +1,126 @@
+.btn-header{
+    background-color: #32B693;
+    border-style: none;
+    color: white;
+    border-radius: 6px;
+    font-weight: 700;
+    transition: background-color 0.25s ease-out;
+
+}
+.btn-header:hover{
+    background-color: black;
+}
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+}
+  
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:#32B693;
+    transform-origin: bottom right;
+    margin-bottom: -30px;
+    transition: transform 0.25s ease-out;
+}
+  
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    
+}
+.hover-underline-animation:hover{
+    color: #32B693;
+}
+.bod{
+    margin-top: 87px;
+}
+.text-green{
+    color: #32B693;
+}
+.font-num{
+    font-size: 60px;
+}
+.btn-cards{
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(221, 218, 218);
+    border-radius: 6px;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    transition: background-color ease-in-out .4s, border-color ease-in-out .4s, color ease-in .4s;
+}
+.btn-cards:hover{
+    background-color: #32B693;
+    color: white;
+    border-color: #32B693;
+}
+.bg-black{
+    background-color: black;
+}
+.btn-body{
+    background-color: #32B693;
+    border-style: none;
+    color: white;
+    border-radius: 6px;
+    font-weight: 700;
+    transition: background-color 0.5s ease-in;
+
+}
+.btn-body:hover{
+    background-color: white;
+    color: black;
+}
+.btn-body2{
+    background-color: black;
+    border-style: none;
+    color: white;
+    border-radius: 6px;
+    font-weight: 700;
+    transition: color 0.25s ease-in;
+
+}
+.btn-body2:hover{
+
+    color:#32B693;
+}
+.btn-3{
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(189, 186, 186);
+    color: #32B693;
+    border-radius: 6px;
+    font-weight: 700;
+    transition: color 0.25s ease-in;
+}
+.btn-3:hover{
+    background-color: #32B693;
+    border-color: #32B693;
+    color: white;
+}
+.text-footer{
+    color: gray;
+    text-decoration: none;
+    display: block;
+    transition: color .17s;
+}
+.text-footer:hover{
+    color: white;
+}
+.icon-border{
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(74, 74, 74);
+    transition: border-color ease-in .17s;
+}
+.icon-border:hover{
+    border-color: white;
+}
